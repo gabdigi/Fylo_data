@@ -1,0 +1,106 @@
+
+:root {
+	--box: #1D2B6A;
+}
+
+body{
+	background-color: hsl(229, 57%, 11%);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(229, 7%, 55%);
+}
+
+.wripper {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	min-width: 900px;
+	margin: 230px 0px 280px 0px;
+
+}
+
+
+.fylo {
+	background-color: var(--box);
+	height: 202px;
+	width: 348px;
+	margin-right: 30px;
+	border-radius: 10px 70px 10px 10px;
+	
+}
+
+.logo {
+	padding-top: 41px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-between;
+	max-width: 175px;
+	padding-left: 40px;
+}
+
+.icon {
+	height: 50px;
+	width: 50px;
+	background-color: #0C112E;
+	border-radius: 10px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+}
+
+.storage {
+	background-color: var(--box);
+	height: 155px;
+	width: 545px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.message {
+	margin: 43px 0px 0px 36px;
+}
+
+.chargement-bar {
+	height: 19px;
+	width: 434px;
+	background-color: #141E4A;
+	border-radius: 10px;
+	margin: 18px 0px 0px 36px;
+}
+
+.chargement-bar-color {
+	height: 14px;
+	width: 322px;
+	background-color: #7487D9;
+	border-radius: 10px;
+	padding: 2.5px;
+}
+
+.circle {
+	height: 10px;
+	width: 10px; 
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 1px;
+}
+
+.info {
+	margin: 10px 0px 0px 36px;
+	display: flex;
+	justify-content: space-between;
+	max-width: 434px;
+}
+
+
