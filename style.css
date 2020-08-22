@@ -1,4 +1,8 @@
 
+Stage 0
+> 3%
+Stage 1
+> 1%
 :root {
 	--box: #1D2B6A;
 }
@@ -61,6 +65,7 @@ body{
 
 
 .fylo {
+	background-color: #1D2B6A;
 	background-color: var(--box);
 	height: 202px;
 	width: 348px;
@@ -99,6 +104,7 @@ body{
 }
 
 .storage {
+	background-color: #1D2B6A;
 	background-color: var(--box);
 	height: 155px;
 	width: 545px;
@@ -146,5 +152,3 @@ body{
 	justify-content: space-between;
 	max-width: 434px;
 }
-
-
