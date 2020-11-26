@@ -182,8 +182,61 @@ body{
 	max-width: 434px;
 }
 
-@media screen and (max-width: 2000px) {
-	
+@media screen and (min-width: 2000px) {
+
+body{
+	background-color: hsl(229, 57%, 11%);
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-attachment: fixed;
+    background-position: center 220%;
+    font-family: 'Raleway', sans-serif;
+    color: hsl(229, 7%, 55%);
+}
+
+.boxwhite {
+	position: absolute;
+	height: 50px;
+	margin-left: 58%;
+	background-color: white;
+	height: 72px;
+	width: 180px;
+	border-radius: 10px;
+}
+
+.triangle {
+    position: relative;
+    top: -5px;
+    left: 53.5%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 30px 30px 0;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+	.triangle {
+		display: none;
+	}
+
+	.wripper {
+		display: flex;
+		min-width: auto;
+	}
+
+	.chargement-bar {
+		width: 85%;
+	}
+
+	.chargement-bar-color {
+		min-width: auto;
+	}
+
+	.info {
+		margin: 10px 30px 0px 36px;
+	}
+
 }
 
 @media screen and (max-width: 1000px) {
